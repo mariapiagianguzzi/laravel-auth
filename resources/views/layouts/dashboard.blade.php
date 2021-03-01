@@ -18,6 +18,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
 </head>
 <body>
     <div id="app">
@@ -78,10 +82,10 @@
             <div class="col-xs-12 col-md-3 col-lg-3">
 
               <ul class="list-unstyled">
-                <li> <a href="#">CONTATTI</a> </li>
-                <li> <a href="#">CONTATTI</a> </li>
-                <li> <a href="#">CONTATTI</a> </li>
-                <li> <a href="#">CONTATTI</a> </li>
+                <li> <a href="#"><i class="fas fa-tachometer-alt"></i>Dashoboard</a> </li>
+                <li> <a href="#"><i class="fas fa-book-open"></i></i>Posts</a> </li>
+                <li> <a href="#"><i class="far fa-folder"></i>Categories</a> </li>
+                <li> <a href="#"><i class="fas fa-tags"></i>Tags</a> </li>
               </ul>
 
             </div>
