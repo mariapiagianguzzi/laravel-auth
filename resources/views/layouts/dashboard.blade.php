@@ -79,18 +79,15 @@
 
         <div class="container py-4">
           <div class="row">
-            <div class="col-xs-12 col-md-3 col-lg-3">
-
-              <ul class="list-unstyled">
-                <li> <a href="#"><i class="fas fa-tachometer-alt"></i>Dashoboard</a> </li>
-                <li> <a href="#"><i class="fas fa-book-open"></i></i>Posts</a> </li>
-                <li> <a href="#"><i class="far fa-folder"></i>Categories</a> </li>
-                <li> <a href="#"><i class="fas fa-tags"></i>Tags</a> </li>
-              </ul>
-
+            <div class="col-xs-12 col-md-3 col-lg-2">
+                <ul class="list-unstyled">
+                    <li><a href="{{ route('admin.index')}}"><i class="fas fa-tachometer-alt fa-lg fa-fw"></i> Dashboard</a></li>
+                    <li><a href="{{ route('admin.posts.index')}}"><i class="fas fa-book-open fa-lg fa-fw"></i> Posts</a></li>
+                    <li><a href="#"><i class="fa fa-folder-open fa-lg fa-fw" aria-hidden="true"></i> Categories</a></li>
+                    <li><a href="#"><i class="fas fa-tag fa-lg fa-fw"></i> Tags</a></li>
+                </ul>
             </div>
-
-            <main class="col-xs-12 col-md-3 col-lg-3">
+            <main class="col-xs-12 col-md-9 col-lg-10">
               @yield('content')
             </main>
           </div>
